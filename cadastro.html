@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+    <title>Pagina de Cadatro</title>
+</head>
+<body>
+
+    
+      <a href="index.html"><img src="imagens/botao-voltar.png" alt="Botao Voltar" id="botao-voltar" ></a>
+      
+       
+
+    <h1>Cadastre-se</h1>
+    <p>É rápido e fácil</p>
+
+    <form action="">
+
+        <p><input type="text" name="tNome" id="cNome" size="20" maxlength="20" placeholder="Nome">&nbsp;&nbsp;
+
+        <input type="text" name="tSobrenome" id="cSobrenome" size="20" maxlength="20" placeholder="Sobrenome" required></p>
+
+        <p><input type="email" name="tEmail" id="cEmail" size="20" maxlength="20" placeholder="Email" required></p>
+
+        <p><input type="password" name="tSenha" id="cSenha" size="20" maxlength="20" placeholder="Senha" required></p>
+
+        Data de Nascimento ?<br>
+        <input type="date" name="tNasc" id="cNasc" required> 
+
+        <div id="genero">
+            Genero ?
+            <input type="radio" name="tGenero" id="cMasc" required><label for="cMasc">Masculino</label> <input type="radio" name="tGenero" id="cFem" required><label for="cFem">Feminino</label>
+        </div>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+</html>

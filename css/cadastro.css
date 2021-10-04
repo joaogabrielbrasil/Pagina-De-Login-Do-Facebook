@@ -1,0 +1,54 @@
+body {
+    background-color:#F0F2F5;
+    font-family:sans-serif;
+    font-size:1em;
+    margin-left:40%;
+    margin-top:20%;
+}
+
+input, button {
+    border-radius:5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    padding:0.6em;
+    border:1px solid #59425d;
+}
+
+input:focus {
+    background:#E0E0F8;
+}
+
+button {
+    font-size:1.2em;
+    background:#59425d;
+    border:0;
+    color:#ffffff;
+    padding:0.6em 0.6em;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    position:absolute;
+    top:70%;
+    right:50%;
+}
+
+button:hover {
+    background:#ccbbff;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);;
+}
+
+#genero {
+    position:absolute;
+    top:65%;
+}
+
+#botao-voltar {
+    border:1px solid rgb(105, 160, 241);
+    border-radius:10px;
+    position:absolute;
+    top:1%;
+    left:1%;
+}
+
+
+
